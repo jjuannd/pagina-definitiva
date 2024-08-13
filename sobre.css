@@ -30,6 +30,7 @@
 }
 .textosobre{
     height: 400px;
+    width: 100%;
 }
 .textosobre p{
     color: white;

@@ -20,6 +20,10 @@ header{
     text-transform: uppercase;
     color: white;
     font-family: poppins;
+    animation-duration: 2s;
+}
+.logo.animate__animated.animate__rubberBand {
+    animation-iteration-count: infinite;
 }
 .logo, a:hover{
     color: rgb(213, 124, 30);
@@ -104,6 +108,7 @@ header{
     color: white;
     text-align: center;
     font-size: 20px;
+    animation-duration: 5s;
 }
 .cajas-contenido{
     display: flex;
@@ -277,10 +282,6 @@ header{
     margin-left: -20px;
     width: 300px;
  }
- .textosobre{
-    overflow: scroll;
- }
-}
 
 @media(max-width: 1024px){
     .caja1,
@@ -353,6 +354,3 @@ header{
     }
 }
     
-
-
-
